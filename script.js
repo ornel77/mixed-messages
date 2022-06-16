@@ -30,4 +30,8 @@ for(let list in wordList) {
     }
 }
 
-console.log(finalSentence.join(''))
+const formatting = sentence => {
+     console.log(sentence.join(''))
+}
+
+formatting(finalSentence)
